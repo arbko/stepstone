@@ -12,7 +12,7 @@ import docx
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--geckodriver_path",type=str,
-    default=str(Path.home()) + "/.local/bin/geckodriver",
+    default=str(Path.home()) + "c:\users\mirko\desktop\geckodriver",
     help="Absolute path of the geckodriver binary.")
 parser.add_argument("--headless", default=False, action='store_true',
     help="If True: start browser without GUI.")
